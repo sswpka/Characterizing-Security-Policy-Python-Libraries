@@ -1,0 +1,61 @@
+Target Category,Feature Type,Feature,Mean SHAP Value
+Generic policy,project_metrics,num_stargazers,0.010628
+Generic policy,project_metrics,num_subscribers,0.00676
+Generic policy,project_metrics,num_watchers,0.006464
+Generic policy,project_metrics,num_forks,0.005209
+Generic policy,project_metrics,num_pull,-0.003888
+Generic policy,security_practice_scores,ssf7_dependency-update-tool,0.00973
+Generic policy,security_practice_scores,ssf10_maintained,0.006968
+Generic policy,security_practice_scores,ssf3_cii-best-practices,-0.001553
+Generic policy,security_practice_scores,ssf8_fuzzing,-0.003105
+Generic policy,security_practice_scores,ssf9_license,-0.007415
+Generic policy,code_quality_metrics,bug_low,0.024746
+Generic policy,code_quality_metrics,bug_high,0.006262
+Generic policy,code_quality_metrics,vulnerability_low,-6.3e-05
+Generic policy,code_quality_metrics,code_smell_medium,-0.020582
+Generic policy,code_quality_metrics,bug_medium,-0.026757
+Reporting mechanism,project_metrics,num_forks,0.015159
+Reporting mechanism,project_metrics,num_commits,0.005367
+Reporting mechanism,project_metrics,num_issues,0.005348
+Reporting mechanism,project_metrics,num_pull,0.003922
+Reporting mechanism,project_metrics,num_contributors,-0.004597
+Reporting mechanism,security_practice_scores,ssf1_branch-protection,0.321331
+Reporting mechanism,security_practice_scores,ssf8_fuzzing,0.06922
+Reporting mechanism,security_practice_scores,ssf0_binary-artifacts,0.0
+Reporting mechanism,security_practice_scores,ssf3_cii-best-practices,0.0
+Reporting mechanism,security_practice_scores,ssf10_maintained,-0.008046
+Reporting mechanism,code_quality_metrics,vulnerability_high,0.038998
+Reporting mechanism,code_quality_metrics,vulnerability_blocker,-0.010549
+Reporting mechanism,code_quality_metrics,vulnerability_medium,-0.016835
+Reporting mechanism,code_quality_metrics,bug_blocker,-0.025844
+Reporting mechanism,code_quality_metrics,bug_medium,-0.084757
+Scope of practice,project_metrics,project_size(kb),0.00744
+Scope of practice,project_metrics,num_contributors,0.005867
+Scope of practice,project_metrics,num_pull,0.004806
+Scope of practice,project_metrics,num_issues,-0.003481
+Scope of practice,project_metrics,num_commits,-0.00465
+Scope of practice,security_practice_scores,ssf7_dependency-update-tool,-0.001156
+Scope of practice,security_practice_scores,ssf8_fuzzing,-0.008648
+Scope of practice,security_practice_scores,ssf13_sast,-0.013727
+Scope of practice,security_practice_scores,ssf3_cii-best-practices,-0.017235
+Scope of practice,security_practice_scores,ssf1_branch-protection,-0.030663
+Scope of practice,code_quality_metrics,bug_low,0.006244
+Scope of practice,code_quality_metrics,vulnerability_blocker,5e-05
+Scope of practice,code_quality_metrics,vulnerability_low,0.0
+Scope of practice,code_quality_metrics,vulnerability_high,-0.001798
+Scope of practice,code_quality_metrics,code_smell_medium,-0.038268
+User guideline,project_metrics,num_pull,0.027743
+User guideline,project_metrics,num_forks,0.018946
+User guideline,project_metrics,num_watchers,0.017652
+User guideline,project_metrics,num_stargazers,0.017335
+User guideline,project_metrics,num_subscribers,0.00673
+User guideline,security_practice_scores,ssf8_fuzzing,0.000275
+User guideline,security_practice_scores,ssf7_dependency-update-tool,-0.025622
+User guideline,security_practice_scores,ssf10_maintained,-0.061849
+User guideline,security_practice_scores,ssf13_sast,-0.068023
+User guideline,security_practice_scores,ssf9_license,-0.132417
+User guideline,code_quality_metrics,code_smell_low,0.015943
+User guideline,code_quality_metrics,code_smell_high,0.015083
+User guideline,code_quality_metrics,bug_high,0.011259
+User guideline,code_quality_metrics,bug_blocker,0.003863
+User guideline,code_quality_metrics,bug_low,-0.024057

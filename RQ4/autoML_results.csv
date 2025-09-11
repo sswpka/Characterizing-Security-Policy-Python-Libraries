@@ -1,0 +1,44 @@
+Target Column,feature_types,selected_features,Accuracy,AUC,Macro Avg F1,Best Model,Explainer
+Generic policy,project_metrics,"['num_pull', 'num_stargazers', 'num_watchers', 'num_forks', 'num_subscribers']",0.70,0.74,0.70,"RandomForestClassifier(max_features=1, min_samples_leaf=6, min_samples_split=7,
+                       n_estimators=512, n_jobs=1, random_state=1,
+                       warm_start=True)",TreeExplainer 
+Generic policy,security_practice_scores,"['ssf3_CII-Best-Practices', 'ssf7_Dependency-Update-Tool', 'ssf8_Fuzzing', 'ssf9_License', 'ssf10_Maintained']",0.58,0.62,0.57,"RandomForestClassifier(bootstrap=False, max_features=1, min_samples_leaf=3,
+                       min_samples_split=14, n_estimators=512, n_jobs=1,
+                       random_state=1, warm_start=True)",TreeExplainer 
+Generic policy,code_quality_metrics,"['num_sonarQube_BUG_HIGH', 'num_sonarQube_BUG_MEDIUM', 'num_sonarQube_BUG_LOW', 'num_sonarQube_VULNERABILITY_LOW', 'num_sonarQube_CODE_SMELL_MEDIUM']",0.54,0.59,0.54,"AdaBoostClassifier(algorithm='SAMME',
+                   base_estimator=DecisionTreeClassifier(max_depth=10),
+                   learning_rate=0.010381491760996881, n_estimators=362,
+                   random_state=1)",TreeExplainer 
+Reporting mechanism,project_metrics,"['num_commits', 'num_issues', 'num_pull', 'num_forks', 'num_contributors']",0.80,0.91,0.80,"ExtraTreesClassifier(bootstrap=True, criterion='entropy', max_features=1,
+                     min_samples_split=7, n_estimators=512, n_jobs=1,
+                     random_state=1, warm_start=True)",TreeExplainer 
+Reporting mechanism,security_practice_scores,"['ssf0_Binary-Artifacts', 'ssf1_Branch-Protection', 'ssf3_CII-Best-Practices', 'ssf8_Fuzzing', 'ssf10_Maintained']",0.79,0.85,0.79,"HistGradientBoostingClassifier(early_stopping=True,
+                               l2_regularization=8.908183652101429e-05,
+                               learning_rate=0.19911994270380215, loss='auto',
+                               max_iter=512, max_leaf_nodes=955,
+                               min_samples_leaf=33, n_iter_no_change=2,
+                               random_state=1, validation_fraction=None,
+                               warm_start=True)",TreeExplainer 
+Reporting mechanism,code_quality_metrics,"['num_sonarQube_BUG_MEDIUM', 'num_sonarQube_BUG_BLOCKER', 'num_sonarQube_VULNERABILITY_HIGH', 'num_sonarQube_VULNERABILITY_MEDIUM', 'num_sonarQube_VULNERABILITY_BLOCKER']",0.80,0.88,0.80,"KNeighborsClassifier(n_neighbors=2, p=1, weights='distance')",KernelExplainer 
+Scope of practice,project_metrics,"['num_commits', 'num_issues', 'num_pull', 'num_contributors', 'project_size(kB)']",0.58,0.61,0.58,"RandomForestClassifier(max_features=15, min_samples_leaf=5,
+                       min_samples_split=20, n_estimators=512, n_jobs=1,
+                       random_state=1, warm_start=True)",TreeExplainer 
+Scope of practice,security_practice_scores,"['ssf1_Branch-Protection', 'ssf3_CII-Best-Practices', 'ssf7_Dependency-Update-Tool', 'ssf8_Fuzzing', 'ssf13_SAST']",0.50,0.42,0.49,"AdaBoostClassifier(base_estimator=DecisionTreeClassifier(max_depth=9),
+                   learning_rate=1.9701455892241493, n_estimators=101,
+                   random_state=1)",TreeExplainer 
+Scope of practice,code_quality_metrics,"['num_sonarQube_BUG_HIGH', 'num_sonarQube_BUG_LOW', 'num_sonarQube_VULNERABILITY_LOW', 'num_sonarQube_VULNERABILITY_BLOCKER', 'num_sonarQube_CODE_SMELL_MEDIUM']",0.55,0.55,0.55,"RandomForestClassifier(bootstrap=False, criterion='entropy', max_features=4,
+                       min_samples_leaf=7, n_estimators=512, n_jobs=1,
+                       random_state=1, warm_start=True)",TreeExplainer 
+User guideline,project_metrics,"['num_pull', 'num_stargazers', 'num_watchers', 'num_forks', 'num_subscribers']",0.80,0.90,0.80,"ExtraTreesClassifier(criterion='entropy', max_features=2, n_estimators=512,
+                     n_jobs=1, random_state=1, warm_start=True)",TreeExplainer 
+User guideline,security_practice_scores,"['ssf7_Dependency-Update-Tool', 'ssf8_Fuzzing', 'ssf9_License', 'ssf10_Maintained', 'ssf13_SAST']",0.76,0.81,0.76,"HistGradientBoostingClassifier(early_stopping=True,
+                               l2_regularization=0.1144885415414585,
+                               learning_rate=0.35651231429733377, loss='auto',
+                               max_iter=128, max_leaf_nodes=570,
+                               min_samples_leaf=52, n_iter_no_change=20,
+                               random_state=1,
+                               validation_fraction=0.26745137407982933,
+                               warm_start=True)",TreeExplainer 
+User guideline,code_quality_metrics,"['num_sonarQube_BUG_HIGH', 'num_sonarQube_BUG_LOW', 'num_sonarQube_BUG_BLOCKER', 'num_sonarQube_CODE_SMELL_HIGH', 'num_sonarQube_CODE_SMELL_LOW']",0.76,0.84,0.76,"AdaBoostClassifier(base_estimator=DecisionTreeClassifier(max_depth=2),
+                   learning_rate=0.16884660398877008, n_estimators=144,
+                   random_state=1)",TreeExplainer 
