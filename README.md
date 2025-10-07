@@ -85,4 +85,4 @@ For questions or collaborations, contact:
 
 
 **Morakot Choetkiertikul**  
-Email: morakot.cho@mahidol.edu
+Email: morakot.cho@mahidol.ac.th
